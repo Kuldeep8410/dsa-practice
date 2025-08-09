@@ -11,3 +11,5 @@ public class removedup {
     System.out.println(remduplicate(str,0, new StringBuilder(str),map));
  }   
 }
+
+// hello currently testing git
