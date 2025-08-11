@@ -4,7 +4,7 @@ public class removedup {
             System.out.println(newStr);
             
          }
-    }
+        }
  public static void main(String[] args) {
     String str = 'appnacollege';
     int[] map = new Boolean[25];
@@ -13,3 +13,4 @@ public class removedup {
 }
 
 // hello currently testing git
+// new chnages
