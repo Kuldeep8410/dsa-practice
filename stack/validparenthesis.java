@@ -9,9 +9,9 @@ public class validparenthesis {
                 s.push(curr);
             }
             else{
-                if(s.isEmpty()){
-                    return false;
-                }
+                // if(s.isEmpty()){
+                //     return false;
+                // }
                 if(s.peek() == '(' && curr == ')'){
                     s.pop();
                 }

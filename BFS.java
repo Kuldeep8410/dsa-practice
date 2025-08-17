@@ -19,7 +19,7 @@ public class BFS {
 
             Tree currentNode = queue.remove(); // we remove the first node in queue
             // and save it as currentNode
-
+            
             // check for "win" condition
             if (currentNode.getValue() == value) {
                 System.out.println("Finished searching!");

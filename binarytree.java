@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class binarytree {
     static class Node {
         int data ;
@@ -27,6 +30,22 @@ public class binarytree {
     int nodes[]={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
     bt tree= new bt();
     Node root= tree.buildtree(nodes);
-    System.out.println(root.data);
+    List<Integer> list = new ArrayList<>();
+    while(root!=null){
+        if(root.left!=null){
+            list.add(root.left.data);
+        }
+        if(root.right!=null){
+            list.add(root.right.data);
+        }
+        root = root.left != null ? root.left : root.right;
+        if(root == null) {
+            break;  
+
+    }
+    for(int i=0; i<list.size(); i++){
+        System.out.print(list.get(i) + " ");
+    }
+
    } 
 }
