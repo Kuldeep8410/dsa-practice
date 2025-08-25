@@ -14,7 +14,7 @@ public class stringpermutation{
             }
     }
     public static void main(String[] args){
-        String str = "abcdef2";
+        String str = "abcde";
         findPermutation(str,"");
     }
 }

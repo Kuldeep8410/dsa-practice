@@ -4,10 +4,13 @@ public class removedup {
             System.out.println(newStr);
             
          }
-    }
+        }
  public static void main(String[] args) {
     String str = 'appnacollege';
     int[] map = new Boolean[25];
     System.out.println(remduplicate(str,0, new StringBuilder(str),map));
  }   
 }
+
+// hello currently testing git
+// new chnages
