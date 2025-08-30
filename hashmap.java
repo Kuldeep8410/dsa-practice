@@ -9,7 +9,7 @@ public class hashmap {
          hm.put("China",120);
          hm.put("Bhutan",2);
          hm.put("Indonesia",34);
-         hm.put("bklll",23);
+         hm.put("bngld",23);
          System.out.println(hm);
 
          System.out.println(hm.get("India"));
@@ -19,8 +19,11 @@ public class hashmap {
         //  System.out.println(hm);
           // hm.clear();
           // System.out.println(hm.isEmpty());
+
+          //using entryset ->
           for (HashMap.Entry<String, Integer> entry : hm.entrySet()) {
             System.out.println(entry.getKey() + " => " + entry.getValue());
+           
         }
         for(String key: hm.keySet()){
           System.out.println("key:" + key);
