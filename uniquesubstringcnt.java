@@ -40,5 +40,6 @@ public class uniquesubstringcnt {
             insertintrie(str.substring(i));
         }
         System.out.println(countnodes(root));
+        
     }
 }
