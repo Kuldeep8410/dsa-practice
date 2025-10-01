@@ -25,6 +25,7 @@ public class hashmap {
             System.out.println(entry.getKey() + " => " + entry.getValue());
            
         }
+        hm.computeIfAbsent("Africa", (k) -> 1);
         for(String key: hm.keySet()){
           System.out.println("key:" + key);
         }
@@ -32,7 +33,8 @@ public class hashmap {
         //   System.out.println("values:" + value);
         // }
         System.out.println("Iterating using forEach:(lambda)");
-        hm.forEach((key,value) -> System.out.println(key + " => " + value));
+        // hm.forEach((key,value) -> System.out.println(key + " => " + value));
+        System.out.println(hm);
         }
 
 }
